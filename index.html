@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.6.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container border m-5" id="calculator">
+        <div class="row">
+            <div class="col-12 text-right" id="answer">0</div>
+        </div>
+        <div class="row">
+            <button class="col-3" onclick="display(this)">AC</button>
+            <button class="col-3" onclick="display(this)">C</button>
+            <button class="col-3" onclick="display(this)">e</button>
+            <button class="col-3" onclick="display(this)">/</button>
+        </div>
+        <div class="row">
+            <button class="col-3" onclick="display(this)">7</button>
+            <button class="col-3" onclick="display(this)">8</button>
+            <button class="col-3" onclick="display(this)">9</button>
+            <button class="col-3" onclick="display(this)">*</button>
+        </div>
+        <div class="row">
+            <button class="col-3" onclick="display(this)">4</button>
+            <button class="col-3" onclick="display(this)">5</button>
+            <button class="col-3" onclick="display(this)">6</button>
+            <button class="col-3" onclick="display(this)">-</button>
+        </div>
+        <div class="row">
+            <button class="col-3" onclick="display(this)">1</button>
+            <button class="col-3" onclick="display(this)">2</button>
+            <button class="col-3" onclick="display(this)">3</button>
+            <button class="col-3" onclick="display(this)">+</button>
+        </div>
+        <div class="row">
+            <button class="col-6" onclick="display(this)">0</button>
+            <button class="col-3" onclick="display(this)">.</button>
+            <button class="col-3" onclick="display(this)">=</button>
+        </div>
+        <div id="history"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
